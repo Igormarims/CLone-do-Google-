@@ -1,6 +1,6 @@
 .lupa {
-    max-width: 24px;
-    height: 24px;
+    max-width: 23px;
+    height: 23px;
    
     opacity: .2;
 } 
@@ -15,4 +15,81 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+}
+
+.input {
+    flex: 2;
+    font-size: 16px;
+    border: none;
+
+}
+
+.input:focus {
+    outline: none;
+}
+ 
+
+
+.input-icon:hover{
+    box-shadow: 0px 1px 6px 0px rgb(32  33  36 / 28%);
+    border: none;
+    outline: none;
+}
+
+.input-icon:focus {
+    outline: none;
+    border: none;
+}
+
+.input-icon {
+    position: relative;
+    width: 584px;
+    height: 44px;
+    border-radius: 50px;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    
+
+    .lupa,.microfone {
+       margin: 0 12px;
+    }
+
+}
+
+.showtcut {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 110px;
+    justify-content: center;
+    border-radius: 4px;  
+    cursor: pointer;
+    span {
+        margin-top: 10px;
+        font-size: 12px
+    }
+   
+  
+
+    div {
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        background-color: #eff2f3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.showtcut:hover {
+    background-color: #dee0e0b0;
 }
